@@ -88,7 +88,7 @@ html = '''<dir id="songs-llist">
         </li>
     </ul>
 </dir>'''
-html = re.sub('<a.*?>|</a>','',html)
+html = re.sub('`<a.*?>`|`</a>`','',html)
 print(html)
 results = re.findall('<li.*?>(.*?)</li>',html,re.S)
 print(results)
