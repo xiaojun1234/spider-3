@@ -1,6 +1,6 @@
 # spider-3
 # 正则表达式实践
-re.search 和 re.match 一样，但比re.match好用，它不需要从头匹配
+## re.search 和 re.match 一样，但比re.match好用，它不需要从头匹配
 # 最常规的匹配
 <pre>
 import re
